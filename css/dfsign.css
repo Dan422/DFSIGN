@@ -6514,6 +6514,12 @@ button.bg-dark:focus {
   display: inline-flex !important;
 }
 
+@media (max-width: 768px) {
+  .d-xs-none {
+    display: none !important;
+  }
+}
+
 @media (min-width: 576px) {
   .d-sm-none {
     display: none !important;
@@ -7760,6 +7766,11 @@ button.bg-dark:focus {
 .mt-5,
 .my-5 {
   margin-top: 3rem !important;
+}
+
+.mt-6,
+.my-6 {
+  margin-top: 6rem !important;
 }
 
 .mr-5,
