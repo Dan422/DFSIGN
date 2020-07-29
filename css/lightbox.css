@@ -44,7 +44,7 @@
     max-height:100%;
     max-width:100%;
     vertical-align:middle;
-    padding: 4rem;
+    padding: 1rem;
   }
 
   @media (max-width: 768px) {
