@@ -165,6 +165,18 @@ sup {
   }
 }
 
+@media (min-width: 1441px) {
+  .cursive {
+    font-size: 7.5rem !important;
+  }
+}
+
+@media (min-width: 1921px) {
+  .cursive {
+    font-size: 8.5rem !important;
+  }
+}
+
 .cursive {
   font-family: 'Give You Glory', 'Source Sans Pro', sans-serif;;
   font-size: 5rem;
@@ -376,6 +388,18 @@ template {
   }
 }
 
+@media (min-width: 1441px) {
+  h0, .h0 {
+    font-size: 7rem !important;
+  }
+}
+
+@media (min-width: 1921px) {
+  h0, .h0 {
+    font-size: 8rem !important;
+  }
+}
+
 h0, h1, h2, h3, h4, h5, h6,
 .h0, .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0.5rem;
@@ -465,6 +489,10 @@ hr {
   margin-bottom: 1rem;
   border: 0;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.tz-gallery li {
+  margin-bottom: 1rem;
 }
 
 small,
