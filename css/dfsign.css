@@ -161,25 +161,25 @@ sup {
 
 @media (max-width: 576px) {
   .cursive {
-    font-size: 3.5rem !important;
+    font-size: 4.5rem !important;
   }
 }
 
 @media (min-width: 1441px) {
   .cursive {
-    font-size: 7.5rem !important;
+    font-size: 10.5rem !important;
   }
 }
 
 @media (min-width: 1921px) {
   .cursive {
-    font-size: 8.5rem !important;
+    font-size: 12rem !important;
   }
 }
 
 .cursive {
   font-family: 'Give You Glory', 'Source Sans Pro', sans-serif;;
-  font-size: 5rem;
+  font-size: 8.5rem;
   font-weight: bold;
   color: #7a7a8a;
 }
@@ -189,10 +189,6 @@ a {
   text-decoration: none;
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
-}
-
-a > h6 {
-  color: #ea3e57
 }
 
 a:not([href]):not([tabindex]) {
@@ -384,19 +380,13 @@ template {
 
 @media (max-width: 576px) {
   h0, .h0 {
-    font-size: 3rem !important;
+    font-size: 4rem !important;
   }
 }
 
 @media (min-width: 1441px) {
   h0, .h0 {
-    font-size: 7rem !important;
-  }
-}
-
-@media (min-width: 1921px) {
-  h0, .h0 {
-    font-size: 8rem !important;
+    font-size: 9rem !important;
   }
 }
 
@@ -405,12 +395,12 @@ h0, h1, h2, h3, h4, h5, h6,
   margin-bottom: 0.5rem;
   font-family: inherit;
   font-weight: 500;
-  line-height: 1.2;
+  line-height: 1.1;
   color: inherit;
 }
 
 h0, .h0 {
-  font-size: 5rem;
+  font-size: 8rem;
 }
 
 h1, .h1 {
@@ -491,7 +481,7 @@ hr {
   border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-.tz-gallery li {
+.container-fluid li {
   margin-bottom: 1rem;
 }
 
@@ -1426,7 +1416,7 @@ pre code {
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1439px) {
   .col-xl {
     -ms-flex-preferred-size: 0;
     flex-basis: 0;
@@ -1606,14 +1596,19 @@ pre code {
 
 .table th,
 .table td {
-  padding: 0.75rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  padding-right: 0.5rem;
   vertical-align: top;
   border-top: 1px solid #dee2e6;
 }
 
 .table thead th {
   vertical-align: bottom;
-  border-bottom: 2px solid #dee2e6;
+}
+
+.table tbody {
+  color: #7a7a8a;
 }
 
 .table tbody + tbody {
@@ -6014,7 +6009,13 @@ button.close {
 
 .title-section {
   margin-top: 8rem;
-  margin-bottom: 5rem;
+  margin-bottom: 6rem;
+}
+
+@media (min-width: 1439px) {
+  .title-section {
+    margin-top: 10rem;
+  }
 }
 
 @media (max-width: 576px) {
@@ -8550,6 +8551,10 @@ button.bg-dark:focus {
 }
 
 @media (min-width: 992px) {
+  .ml-n1 {
+    margin-left: -0.25rem !important;
+  }
+
   .mt-n1 {
     margin-top: -2rem !important;
   }
